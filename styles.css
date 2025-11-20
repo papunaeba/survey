@@ -17,6 +17,43 @@ body {
 
 .container {
   text-align: center;
+  display: none;
+}
+
+.name {
+  display: none;
+}
+
+.email {
+  display: none;
+}
+
+.age {
+  display: none;
+}
+
+.role {
+  display: none;
+}
+
+.fieldset {
+  display: none;
+}
+
+.favorite {
+  display: none;
+}
+
+.improved {
+  display: none;
+}
+
+.comments-section {
+  display: none;
+}
+
+#submit {
+  display: none;
 }
 
 h1 {

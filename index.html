@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Survey-Form</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" defer></script>
+    <script src="script.js" defer></script>
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
       rel="stylesheet"
@@ -18,7 +20,7 @@
         Thank you for taking the time to help us improve the platform
       </p>
       <form class="survey-form">
-        <div class="main">
+        <div class="main name">
           <label id="name-label"
             >Name
             <input
@@ -30,7 +32,7 @@
             />
           </label>
         </div>
-        <div class="main">
+        <div class="main email">
           <label id="email-label">
             Email
             <input
@@ -42,7 +44,7 @@
             />
           </label>
         </div>
-        <div class="main">
+        <div class="main age">
           <label id="number-label"
             >Age (optional)
             <input
@@ -55,7 +57,7 @@
             />
           </label>
         </div>
-        <div class="main">
+        <div class="main role">
           <select id="dropdown1" class="input">
             <p>Which option best describes your current role?</p>
             <option>Select current role</option>
@@ -67,7 +69,7 @@
           </select>
         </div>
         <div class="main">
-          <fieldset>
+          <fieldset class="fieldset">
             <legend>Would you recommend freeCodeCamp to a friend?</legend>
             <label class="label-radio">
               <input
@@ -102,7 +104,7 @@
             </label>
           </fieldset>
         </div>
-        <div class="main">
+        <div class="main favorite">
           <p>What is your favorite feature of freeCodeCamp?</p>
           <select id="dropdown2" class="input" required>
             <option value="select an option">Select an option</option>
@@ -155,7 +157,7 @@
             Additional Courses
           </label>
         </div>
-        <div class="main">
+        <div class="main comments-section">
           <p>Any comments or suggestions?</p>
           <textarea
             id="comments"
